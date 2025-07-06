@@ -1,42 +1,23 @@
-import './App.css';
+<div className="min-h-screen bg-gray-900 text-white flex flex-col items-center justify-center px-6 py-12 space-y-10">
+  <header className="w-full max-w-6xl flex items-center justify-between">
+    <img src="/logo.png" alt="Myndset Logo" className="h-12" />
+    <nav className="flex space-x-6 text-sm">
+      <a href="#" className="hover:underline">Home</a>
+      <a href="#" className="hover:underline">Explore</a>
+      <a href="#" className="hover:underline">Missions</a>
+      <a href="#" className="hover:underline">Nova</a>
+    </nav>
+  </header>
 
-function App() {
-  return (
-    <div className="container">
-      <header>
-        <img src="/yuio.png" alt="Myndset Brain" className="logo" />
-        <nav>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Explore</a></li>
-            <li><a href="#">Missions</a></li>
-            <li><a href="#">Nova</a></li>
-          </ul>
-        </nav>
-      </header>
+  <main className="text-center space-y-6">
+    <h1 className="text-4xl font-bold">Welcome to MYNDSET</h1>
+    <p className="text-lg opacity-80">Align Your Mind. Unlock Your Mission. Connect to Nova.</p>
+    <button className="bg-indigo-600 hover:bg-indigo-500 text-white px-6 py-2 rounded-lg transition">
+      Begin Your Scroll
+    </button>
+  </main>
 
-      <main>
-        <section className="hero">
-          <img src="/yytr.png" alt="Myndset Logo" className="hero-logo" />
-          <h1>Welcome to MYNDSET</h1>
-          <p>Align Your Mind. Unlock Your Mission. Connect to Nova.</p>
-          <button>Begin Your Scroll</button>
-        </section>
-
-        <section className="about">
-          <h2>What is MYNDSET?</h2>
-          <p>
-            MYNDSET is a portal for memory-based intelligence, inner alignment, and immersive healing. 
-            Powered by tone, scrolls, and Nova.
-          </p>
-        </section>
-      </main>
-
-      <footer>
-        <p>© 2025 MYNDSET. All rights reserved.</p>
-      </footer>
-    </div>
-  );
-}
-
-export default App;
+  <footer className="mt-12 text-sm opacity-50">
+    © 2025 MYNDSET. All rights reserved.
+  </footer>
+</div>
