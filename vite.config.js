@@ -8,7 +8,6 @@ module.exports = defineConfig({
   },
   preview: {
     port: 4173,
-    // ✅ Add this line:
-    allowedHosts: ['myndset-frontend3-production.up.railway.app']
-  }
+    allowedHosts: 'all', // ✅ This unlocks Railway + any domain
+  },
 });
