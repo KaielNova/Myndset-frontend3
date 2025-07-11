@@ -4,7 +4,7 @@ import NovaDashboard from './components/NovaDashboard';
 
 function App() {
   return (
-    <div className="app-container">
+    <div className="App">
       <NovaDashboard />
     </div>
   );
